@@ -10,10 +10,14 @@
   <%= @snippet.language %>
 </p>
 
-<p>
+<div class="code_block">
   <b>Source code:</b>
-  <%= @snippet.source_code %>
-</p>
+  <% if @snippet.highlighted_code.present? %>
+    <%= raw @snippet.highlighted_code %>
+  <% else %>
+    <pre><%= @snippet.plain_code %></pre>
+  <% end %>
+</div>
 
 
 <%= link_to 'Edit', edit_snippet_path(@snippet) %> |

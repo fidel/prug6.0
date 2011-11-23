@@ -16,7 +16,8 @@ ActiveRecord::Schema.define(:version => 20111123212423) do
   create_table "snippets", :force => true do |t|
     t.string   "name"
     t.string   "language"
-    t.text     "source_code"
+    t.text     "plain_code"
+    t.text     "highlighted_code"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
