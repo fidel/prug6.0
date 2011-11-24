@@ -5,11 +5,11 @@ On `master` branch you'll find showoff slides and non-resque app version. On bra
 
 ## Resources
 
-[Redis](http://redis.io)
-[Storing hundreds of millions of simple key-value pairs in Redis by Instagram](http://instagram-engineering.tumblr.com/post/12202313862/storing-hundreds-of-millions-of-simple-key-value-pairs)
-[Backstory, philosophy and history of Resque's beginnings](http://github.com/blog/542-introducing-resque)
-[Resque](https://github.com/defunkt/resque)
+* [Redis](http://redis.io)
+* [Storing hundreds of millions of simple key-value pairs in Redis by Instagram](http://instagram-engineering.tumblr.com/post/12202313862/storing-hundreds-of-millions-of-simple-key-value-pairs)
+* [Backstory, philosophy and history of Resque's beginnings](http://github.com/blog/542-introducing-resque)
+* [Resque](https://github.com/defunkt/resque)
 
 ## Very useful Resque plugins
-[Resque mailer](https://github.com/zapnap/resque_mailer)
-[Resque scheduler](https://github.com/bvandenbos/resque-scheduler)
+* [Resque mailer](https://github.com/zapnap/resque_mailer)
+* [Resque scheduler](https://github.com/bvandenbos/resque-scheduler)
