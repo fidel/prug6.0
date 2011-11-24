@@ -1,1 +1,6 @@
-{ "name": "My Preso", "sections": [ {"section":"one"} ]}
+{ "name": "Redis with Resque",
+  "sections": [ 
+    {"section":"one"},
+    {"section":"two"} 
+  ]
+}
