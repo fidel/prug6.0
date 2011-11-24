@@ -26,7 +26,7 @@
 
     $ bundle install
 
-`lib\tasks\resque.rake`
+`lib/tasks/resque.rake`
     @@@ Ruby
     require 'resque/tasks'
     namespace :resque
