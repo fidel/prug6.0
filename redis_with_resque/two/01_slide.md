@@ -15,6 +15,25 @@
 * Rake task for starting a worker which processes jobs
 * Sinatra app for monitoring queues, jobs, and workers
 
+!SLIDE #commandline
+
+# Installation
+
+    $ cat Gemfile
+    ...
+    gem 'resque'
+    ...
+
+    $ bundle install
+
+`lib\tasks\resque.rake`
+    @@@ Ruby
+    require 'resque/tasks'
+    namespace :resque
+      task :setup => :environment
+    end
+
+
 !SLIDE smaller
 # Sample worker #
 
@@ -53,3 +72,13 @@ priority queues
 background
     $ QUEUE=* BACKGROUND=yes PIDFILE=./tmp/resque_worker.pid \
       rake resque:work
+
+!SLIDE
+
+# Monitoring app
+
+![Resque web](resque_web.png)
+
+!SLIDE
+
+# Demo

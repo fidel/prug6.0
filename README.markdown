@@ -7,6 +7,7 @@ On `master` branch you'll find showoff slides and non-resque app version. On bra
 
 * [Redis](http://redis.io)
 * [Storing hundreds of millions of simple key-value pairs in Redis by Instagram](http://instagram-engineering.tumblr.com/post/12202313862/storing-hundreds-of-millions-of-simple-key-value-pairs)
+* [Autocomplete with redis](http://antirez.com/post/autocomplete-with-redis.html)
 * [Backstory, philosophy and history of Resque's beginnings](http://github.com/blog/542-introducing-resque)
 * [Resque](https://github.com/defunkt/resque)
 
