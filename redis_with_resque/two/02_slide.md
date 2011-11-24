@@ -53,6 +53,16 @@
 * [Resque mailer](https://github.com/zapnap/resque_mailer)
 * [Much more...](https://github.com/defunkt/resque/wiki/plugins)
 
+!SLIDE bullets incremental
+
+# Resources
+
+* [Redis](http://redis.io)
+* [Storing hundreds of millions of simple key-value pairs in Redis by Instagram](http://instagram-engineering.tumblr.com/post/12202313862/storing-hundreds-of-millions-of-simple-key-value-pairs)
+* [Autocomplete with redis](http://antirez.com/post/autocomplete-with-redis.html)
+* [Resque](https://github.com/defunkt/resque)
+* [Backstory, philosophy and history of Resque's beginnings](http://github.com/blog/542-introducing-resque)
+
 !SLIDE 
 
 # Questions?
