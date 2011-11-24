@@ -19,7 +19,7 @@ class SnippetsController < ApplicationController
   def create
     @snippet = Snippet.new(params[:snippet])
     if @snippet.save
-      Resque.enqueue(::SnippetHighlither, @snippet.id)
+      Resque.enqueue(::SnippetHighlighter, @snippet.id)
       redirect_to @snippet, :notice => "Successfully created snippet."
     else
       render 'new'
